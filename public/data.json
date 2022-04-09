@@ -1,0 +1,250 @@
+{
+  "skills":{
+    "subHeading":"Skills",
+    "text":"THE BEST WAY TO SHARPEN YOUR SKILLS IS TO USE THEM.",
+    "skillSet1":[
+      {
+        "id":1,
+        "name":"Machine Learning",
+        "class":"progress percent80",
+        "percentage":70
+      },
+      {
+        "id":2,
+        "name":"Computational Finanace",
+        "class":"progress percent60",
+        "percentage":60
+      }
+    ],
+    "skillSet2":[
+      {
+        "id":3,
+        "name":"Deep Learning",
+        "class":"progress percent75",
+        "percentage":70
+      },
+      {
+        "id":4,
+        "name":"Computational Science",
+        "class":"progress percent80",
+        "percentage":80
+      }
+    ]
+  },
+  "about":{
+    "subHeading":"About Me",
+    "text":"I'M NOT PERFECT, I'M ORIGINAL",
+    "state":[
+      { "id": 1, "title": "Name", "text": "Niharika Dalsania" },
+      { "id": 2, "title": "Email", "text": "dalsanianiharika@gmail.com" },
+      { "id": 3, "title": "Degree", "text": "BTech (Honors) in Information and Communication Technology with minor Comutational Science" },
+      { "id": 4, "title": "City", "text": "Ithaca, New York" }
+    ],
+    "aboutMe":"I'm a curious, passionate and dedicated grad, all set to graduate in 2022. Loves Programming and Machine Learning. Enriched by exploring industrial working experience as well as research. Powerful fundamentals of Computational Science and practical implementation. Aspires to use skills and knowledge to make a difference in the real world. Looks forward to connecting! :)"
+  },
+  "banner":{
+    "title": "I am Niharika Dalsania",
+    "image": "/images/potrait-removebg.png",
+    "buttonName":"My Resume",
+    "portfolioLink":"https://docs.google.com/document/d/1uJY3g0qyREfr79wXyJ3_FEoZ_A8qpeMpsmkfWJKvLNU/edit?usp=sharing",
+    "social":[
+      {
+        "id":1,
+        "name":"Github",
+        "link":"https://github.com/ND612"
+      },
+      {
+        "id":2,
+        "name":"Linkedin",
+        "link":"https://www.linkedin.com/in/niharika-dalsania-0791021a9"
+      },
+      {
+        "id":3,
+        "name":"Kaggle",
+        "link":"https://www.kaggle.com/niharikadalsania"
+      }
+    ]
+  },
+  "navigation":{
+    "imgSource":"/images/logo.png",
+    "sectionName":[
+      {"id":1,"name":"Home","link":"#"},
+      {"id":2,"name":"About","link":"#about"},
+      {"id":3,"name":"Resume","link":"#resume"},
+      {"id":4,"name":"Skill","link":"#skill"},
+      {"id":5,"name":"Achievements","link":"#awards"},
+      {"id":6,"name":"Project","link":"#projects"},
+      {"id":7,"name":"Contact","link":"#contact"}
+    ]
+  },
+  "projects":{
+    "subHeading": "My Projects",
+    "text":"A PROJECT IS COMPLETE WHEN IT STARTS WORKING FOR YOU, RATHER THAN YOU WORKING FOR IT.",
+    "project":[
+      {
+        "id": 2,
+        "heading": "Finance/Deep Learning",
+        "title": "Predicting cryptocurrency prices using Recurrent Neural Networks",
+        "link":"https://github.com/DN612/Predicting-cryptocurrency-prices-using-neural-networks",
+        "text":
+          "Used data of past few years to build a model using Recurrent Neural Network (LSTM) to predict the Bitcoin prices on a particular day. Achieved a precision score of 0.67."
+      },
+      {
+        "id": 3,
+        "heading": "Quantum Computing",
+        "title":"Monte Carlo Pricing of Financial Derivatives",
+        "link":"https://github.com/DN612/Quantum-Computaion",
+        "text": "Constructed and simulated quatum monte carlo model for option pricing using quantum algorithm and circuit."
+      },
+      {
+        "id": 1,
+        "heading": "Deep Learning",
+        "title":"Image to image translation using Generative Adversarial Networks",
+        "link":"https://github.com/DN612/StarGAN",
+        "text":
+          "Performed detailed analysis of shortcomings in the current single domain to domain image translation models via literature review. Reproduced the results of the paper “StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation” which implements StarGAN and compared all the models to identify the superior one."
+      }
+    ]
+  },
+  "contact":{
+    "imgSource":"/images/logo.png",
+    "text":"The only way to do great work is to love what you do. If you haven't fount it yet, keep looking. Don't settle.",
+    "info":[
+      {
+        "id":1,
+        "name":"Location",
+        "value":"Ithaca, New York, USA"
+      },
+      {
+        "id":2,
+        "name":"Email",
+        "value":"dalsanianiharika@gmail.com"
+      },
+      {
+        "id":3,
+        "name":"Call",
+        "value":"+1 (571) 466-8150"
+      } 
+    ]
+  },
+  "resume":{
+    "subHeading": "Resume",
+    "text":"EXPERIENCE IS NOT WHAT HAPPENS TO YOU, IT'S WHAT YOU DO WITH WHAT HAPPENS TO YOU.",
+    "education":[
+      {
+        "id":3,
+        "title":"ORIE Masters of Engineering (Financial Engineering)",
+        "heading":"Cornell University, Ithaca, New York",
+        "timeStamp":"Aug 2021 - Dec 2022",
+        "selectedCourse": "Expected coursework",
+        "text":"Stochastic Calculus, Statistics of Financial Engineering, Optimisation, Statistical Data Mining applied Time Series",
+        "awards":""
+      },
+      {
+        "id":1,
+        "title":"BTech in Information and Communication Technology with minor in Computational Science",
+        "heading": "Dhirubhai Ambani Institute of Information and Communication Technology",
+        "timeStamp":"Aug 2017 - May 2020",
+        "selectedCourse": "Selected coursework",
+        "text":"Computational Finance, Machine Learning, Deep learning, Calculus, Probability, Statistics and Information Theory, Group theory and Linear Algebra, Optimisation, Computational and numerical methods, High Performance Computing, Modelling and Simulation, Quantum Computing, Introductory Computational Physics, Design and Analysis of Algorithm, Principles of Economics, Technology and Economic, Organisation Behaviour",
+        "awards":"CGPA: 9.44/10 (Rank 2)"
+      },
+      {
+        "id":2,
+        "title":"10+2 Higher Education",
+        "heading": "PV Modi High School",
+        "timeStamp": "July 2015 - Mar 2017",
+        "text": "Secured 99.99 percentile in grade 12",
+        "awards":"Rank: 1 (out of more than 70000)"
+      }
+    ],
+    "exp":[
+      {
+        "id":1,
+        "title":"Product Engineer Intern",
+        "data":[
+          {
+            "id":1,
+            "timeStamp":"Feb 2021 - May 2021",
+            "heading":"Spriklr, Gurgaon, India",
+            "text":"Build a docker containing deep learning model for emotion identification. Trained the model using labelled data generated using GPU via zero shot classification model pretrained over MNLI dataset. Performed testing of different sentiment predictions models based on model metadata shifted to tensorflow servable platform to compare with performance of original models."
+          }
+        ],
+        "timeStamp":["Feb 2021 - May 2021"],
+        "heading":["Spriklr, Gurgaon, India"],
+        "text":["Worked on Multilingual Toxic Comment Classification. Implemented a range of approaches from baseline classifiers to sophisticated models like Cross Language Modelling RoBERTa (XLM-R) and ensemble models. Further extend the work to a fully functional Document Classifier."]
+      },
+      {
+        "id":4,
+        "title":"Computational Finance Intern",
+        "data":[
+          {
+            "id":1,
+            "heading":"Indian Institute of Management Ahmedabad",
+            "timeStamp":"Jan 2020 - Dec 2020",
+            "text":"Built a web app using shiny package in R language for Option Pricing using Black Scholes model, Greeks/Advanced Greeks pricing for a portfolio of options."
+          }
+        ]
+      },
+      {
+        "id":3,
+        "title":"Machine Learning Intern",
+        "data":[
+          {
+            "id":1,
+            "heading":"Spriklr, Gurgaon, India",
+            "timeStamp":"May, 2020 - Jun, 2020",
+            "text":"Worked on Multilingual Toxic Comment Classification. Implemented a range of approaches from baseline classifiers to sophisticated models like Cross Language Modelling RoBERTa (XLM-R) and ensemble models. Further extend the work to a fully functional Document Classifier."
+          }
+        ]
+      },
+      {
+        "id":2,
+        "title":"Dhirubhai Ambani Institude of Information and Communication Technology",
+        "data":[
+          {
+            "id":1,
+            "timeStamp":"Aug, 2020 - Dec, 2020",
+            "heading":"Linear Algebra Teaching Assistant",
+            "text":"Conduct weekly tutorials. Assist the professor in structuring the course and evaluating student performance."
+          },
+          {
+            "id":2,
+            "timeStamp":"Dec, 2019 - Dec, 2020",
+            "heading":"Undergraduate Researcher (in collaboration with Institute for Plasma Research)",
+            "text":"Devised a novel approach for synthetic time series data generation for tokamak plasma disruption. Built a model for identifying pre-disruptive current that acts as a precursor for predicting disruption. Presented the work at International Conference Of Plasma Sciences 2020 and published a paper \"An Application of Machine Learning for Plasma Current Quench Studies via Synthetic Data Generation\"in Fusion Engineering and Design.",
+            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0920379621003549?via%3Dihub"
+          },
+          {
+            "id":3,
+            "heading":"Member of Programming Club",
+            "timeStamp":"Aug, 2018 - Jun, 2020",
+            "text":"Associated with of the programming club at DA-IICT for about 2 years now. Responsibilities included conducting regular sessions for teaching new topics to students and creating/managing coding contests for entire student community."
+          }
+        ],
+        "timeStamp":["Aug, 2020 - Dec, 2020", "Dec, 2019 - Dec, 2020","Aug, 2018 - Jun, 2020"],
+        "heading":["Linear Algebra Teaching Assistant","Undergraduate Researcher (in collaboration with Institute for Plasma Research)", "Member of Programming Club"],
+        "text":["Conduct weekly tutorials. Assist the professor in structuring the course and evaluating student performance.", "Devised a novel approach for synthetic time series data generation for tokamak plasma disruption. Built a model for identifying pre-disruptive current that acts as a precursor for predicting disruption. Presented the work at International Conference Of Plasma Sciences 2020.","Associated with of the programming club at DA-IICT for about 2 years. Responsibilities included conducting regular sessions for teaching new topics to students and creating/managing coding contests for entire student community."]
+      }
+    ]
+  },
+  "awards":{
+    "subHeading":"Achievements",
+    "text":"COMFORT IS THE ENEMY OF ACHIEVEMENT",
+    "firstChild":"Rank 1 in State Board examinations in all 4 semesters of grade 11-12 (out of a total of above 70,000 students)",
+    "achv":[
+      {
+        "id":"item1",
+        "name":"Recipient of Dhirubhai Ambani Scholarship by Reliance Foundation"
+      },
+      {
+        "id":"item2",
+        "name":"Among the top 1% students who were offered scholarship of 0.8 lakhs under the INSPIRE initiative for pursuing pure science"
+      },
+      {
+        "id":"item3",
+        "name":"Recipient of Certificate of Appreciation from University Dean for best summer internship presentation (Multilingual Toxic Comment Classification - Sprinklr)"
+      }
+    ]
+  }
+}
