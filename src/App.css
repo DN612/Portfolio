@@ -693,7 +693,7 @@ body {
 }
 
 /*========================  HANDLLING TABLETS  ==============================*/
-@media (max-width: 1250px) and (min-width: 401px) {
+@media (max-width: 1250px) and (min-width: 481px) {
   .container {
     width: 100%;
     padding: 0 50px;
@@ -817,7 +817,7 @@ body {
 }
 
 /*========================  HANDLLING SMALL DEVICES - MOBILES ==============================*/
-@media (max-width: 400px) {
+@media (max-width: 481px) {
   html {
     scroll-behavior: smooth;
   }

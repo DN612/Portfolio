@@ -2,7 +2,7 @@ import React from "react";
 import { FaAlignJustify } from "react-icons/fa";
 const Nav = (props) => {
   var navigationWidth = true;
-  if (window.innerWidth < 400) {
+  if (window.innerWidth < 1250) {
     navigationWidth = false;
   }
   const [state, setState] = React.useState(navigationWidth);
@@ -28,7 +28,7 @@ const Nav = (props) => {
               </a>
             </div>
           </ul>
-          {state && !state.nav2 ? (
+          {state ? (
             <ul className="navbar__right">{navigation}</ul>
           ) : (
             ""
