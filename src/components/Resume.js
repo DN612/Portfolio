@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import "../css/resume.css";
 
 const Resume = (props) => {
   if (props.data) {
@@ -29,7 +30,7 @@ const Resume = (props) => {
                 <p>{dataOfExp.text}</p>
                 {dataOfExp.link &&
                   <p className="customlink">
-                    <a href={dataOfExp.link} className="hyperlink" target="_blank" rel="noopener noreferrer">Research Paper</a>
+                    <a href={dataOfExp.link} className="hyperlink" target="_blank" rel="noopener noreferrer">Research Paper Link</a>
                   </p>
                 }
               </Fragment>
@@ -48,11 +49,11 @@ const Resume = (props) => {
           <div className="commonBorder"></div>
         </div>
         <div className="resume-row">
-          <div className="col-lg-6">
+          <div className="col-6">
             <h3 className="resume-title">Education</h3>
             {education}
           </div>
-          <div className="col-lg-6">
+          <div className="col-6">
             <h3 className="resume-title">Professional Experience</h3>
             {exp}
           </div>

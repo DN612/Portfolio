@@ -2,6 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaKaggle } from "react-icons/fa";
 import { ImLocation } from "react-icons/im";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
+import "../css/contact.css"
 
 const Contact = (props) => {
   if (props.data) {
@@ -15,10 +16,10 @@ const Contact = (props) => {
     var info = props.data.info.map(function (info, index) {
       return (
         <div key={info.id} className="row">
-          <div className="col-2">
+          <div className="col-6">
             <li>{icons[index].icon}</li>
           </div>
-          <div className="col-8">
+          <div className="col-6">
             <h2>{info.name}</h2>
             <h4>{info.value}</h4>
           </div>

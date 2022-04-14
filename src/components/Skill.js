@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/skills.css";
 
 const Skill = (props) => {
   if (props.data) {
@@ -31,7 +32,7 @@ const Skill = (props) => {
           <p className="mainContent">{text}</p>
           <div className="commonBorder"></div>
         </div>
-        <div className="row">
+        <div className="skill-row">
           <div className="col-6">
             <ul className="skill-bars-fat">{skillSet1}</ul>
           </div>

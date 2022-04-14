@@ -2,6 +2,8 @@ import React from "react";
 import { GiBrain } from "react-icons/gi";
 import { DiGoogleAnalytics } from "react-icons/di";
 import { FcParallelTasks } from "react-icons/fc";
+import "../css/projects.css"
+
 const Projects = (props) => {
   if (props.data) {
     var subHeading = props.data.subHeading;
@@ -13,13 +15,11 @@ const Projects = (props) => {
     ];
     var state = props.data.project.map(function (inf, index) {
       return (
-        <div key={inf.id} className="col-4 bgMain">
+        <div key={inf.id} className="col-4">
           <div className="projects__box">
             <div className="row">
-              <div className="col-2">{icons[index].icon}</div>
-              <div className="col-8">
-                <div className="projects__box-header">{inf.heading}</div>
-              </div>
+              <span>{icons[index].icon}<div className="projects__box-header">{inf.heading}</div></span>
+              
             </div>
             <div className="projects__box-title">{inf.title}</div>
             <div className="projects__box-p">{inf.text}</div>
@@ -44,7 +44,7 @@ const Projects = (props) => {
             <div className="commonBorder"></div>
           </div>
 
-          <div className="row bgMain">
+          <div className="row">
             {state}
             <div className="header__buttons">
               <a

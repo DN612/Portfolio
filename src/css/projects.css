@@ -1,0 +1,161 @@
+.projects {
+  background: white;
+  color: #fff;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.projects .container {
+  margin: 0 auto;
+  width: 85%; 
+}
+
+.projects__box {
+  padding: 30px;
+  background: #fff;
+  color: #fff;
+  margin: 20px;
+  transition: all .25s linear;
+  height: auto;
+  position: relative;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #ff4a57;
+  font-size: 16px;
+}
+
+.mainHeader {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.mainContent {
+  font-size: 16px;
+  color: black;
+}
+
+.commonBorder {
+  background: #ff4a57;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
+}
+
+.projects__box:hover {
+  background: #dfdfdf;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.commonIcons {
+  font-size: 40px;
+  color: #ff4a57;
+  margin-bottom: -15px;
+  margin-right: 10px;
+}
+
+.projects__box-header {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #000;
+  display: inline;
+  margin-top: -20px;
+  
+}
+
+.projects__box-p {
+  font-size: 14px;
+  color: black;
+  text-align: justify;
+}
+
+.projects__box-title {
+  font-size: 18px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.projects .header__buttons {
+  width: 100%;
+  position: relative;
+  align-items: center;
+}
+
+.projects .header__buttons .btn {
+  margin-top: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.projectlink{
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #dfdfdf;
+  margin-top: 20px;
+  color: #ff4a57;
+}
+
+@media (max-width: 1000px) {
+  
+  .projects .container {
+    margin: 0 auto;
+    width: 100%; 
+  }
+
+  .commonIcons{
+    margin-bottom: -15px;
+    margin-right: 10px;
+  }
+
+  .projectlink{
+    position: relative;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #dfdfdf;
+    color: #ff4a57;
+    bottom: 0px
+  }
+
+  .projects__box {
+    height: auto;
+    padding: 7px 7px 7px 7px;
+    width: 100%;
+    margin-left: 0;
+    border: 2px solid #000;
+  }
+
+  .btn-outline {
+    border: 2px solid #ff4a57;
+    border-radius: 50px;
+    padding: 5px 10px;
+    color: #000;
+  }
+}
+
+@media (max-width: 1250px) and (min-width: 1001px) {
+  .projects .container {
+    margin: 0 auto;
+    width: 98%; 
+  }
+
+  .projects__box {
+    height: 525px;
+    width: 98%;
+  }
+}

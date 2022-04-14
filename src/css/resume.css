@@ -1,0 +1,124 @@
+.customlink{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hyperlink {
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #dfdfdf;
+  color: #ff4a57;
+}
+
+.resume {
+  background: white;
+  color: #fff;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #ff4a57;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #ff4a57;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #dfdfdf;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.resume .resume-item h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.resume .resume-item p {
+  color: #000;
+  text-align: justify;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+  color: #000;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #ff4a57;
+}
+
+.resume-row {
+  display: flex;
+  width: 90%;
+  padding: 0 50px 0 50px;
+  margin: 0 auto;
+}
+
+.resume .col-6 {
+  padding-right: 20px;
+}
+
+@media (max-width: 1000px) {
+  
+  .resume-row {
+    width: 100%;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 1250px) and (min-width: 1001px) {
+  .resume-row {
+    padding: 0;
+  }
+
+  .resume .col-6 {
+    padding-right: 10px;
+  }
+}

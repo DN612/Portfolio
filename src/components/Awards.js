@@ -1,5 +1,6 @@
 import React from "react";
 import ReactCardCarousel from "react-card-carousel";
+import "../css/awards.css"
 
 const Awards = (props) => {
   var awardsContainer = {
