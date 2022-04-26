@@ -9,9 +9,9 @@ const Projects = (props) => {
     var subHeading = props.data.subHeading;
     var text = props.data.text;
     var icons = [
-      { icon: <GiBrain className="commonIcons" /> },
       { icon: <DiGoogleAnalytics className="commonIcons" /> },
       { icon: <FcParallelTasks className="commonIcons" /> },
+      { icon: <GiBrain className="commonIcons" /> }
     ];
     var state = props.data.project.map(function (inf, index) {
       return (

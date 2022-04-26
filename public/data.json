@@ -11,7 +11,7 @@
       },
       {
         "id":2,
-        "name":"Finanace",
+        "name":"Finance",
         "class":"progress percent60",
         "percentage":"Intermediate"
       },
@@ -40,18 +40,12 @@
   "about":{
     "subHeading":"About Me",
     "text":"I'M NOT PERFECT, I'M ORIGINAL",
-    "state":[
-      { "id": 1, "title": "Name", "text": "Niharika Dalsania" },
-      { "id": 2, "title": "Email", "text": "dalsanianiharika@gmail.com" },
-      { "id": 3, "title": "Degree", "text": "BTech (Honors) in Information and Communication Technology with minor Comutational Science" },
-      { "id": 4, "title": "City", "text": "Ithaca, New York" }
-    ],
-    "aboutMe":"I'm a curious, passionate and dedicated grad, all set to graduate in 2022. Loves Programming and Machine Learning. Enriched by exploring industrial working experience as well as research. Powerful fundamentals of Computational Science and practical implementation. Aspires to use skills and knowledge to make a difference in the real world. Looks forward to connecting! :)"
+    "aboutMe":"This is Niharika. I grew up in India and lately moved to USA. I’m a curious, passionate and dedicated student, all set to graduate in 2022. I’ve had the opportunity to enrich myself by exploring industry experience as well as research. Programming and Machine Learning excites me. I enjoy analytical, quantitative and mathematical modelling. Powerful fundamentals of Computational Science and practical implementation are some of my strengths. I’m deeply passionate about Finance and Natural Language Processing. I believe I’m an excellent leader, who loves taking special initiative to empower girls in tech field. Outside work, you’d find me reading mystery novels, painting, cooking or playing badminton. I aspire to use my skills and knowledge to make a difference in the real world. I look forward to meeting like-minded passionate humans!"
   },
   "banner":{
     "title": "I am Niharika Dalsania",
     "buttonName":"My Resume",
-    "portfolioLink":"https://docs.google.com/document/d/1uJY3g0qyREfr79wXyJ3_FEoZ_A8qpeMpsmkfWJKvLNU/edit?usp=sharing",
+    "portfolioLink":"https://drive.google.com/file/d/1n55PrIXMH6KQ8SP4Hde0t16pDJcfoHKb/view?usp=sharing",
     "social":[
       {
         "id":1,
@@ -84,36 +78,34 @@
   },
   "projects":{
     "subHeading": "My Projects",
-    "text":"A PROJECT IS COMPLETE WHEN IT STARTS WORKING FOR YOU, RATHER THAN YOU WORKING FOR IT",
+    "text":"A PROJECT IS WORTH WHEN IT STARTS WORKING FOR YOU, NOT WHEN YOU START WORKING FOR IT",
     "project":[
       {
         "id": 2,
-        "heading": "Finance/Deep Learning",
-        "title": "Predicting cryptocurrency prices using Recurrent Neural Networks",
-        "link":"https://github.com/DN612/Predicting-cryptocurrency-prices-using-neural-networks",
-        "text":
-          "Used data of past few years to build a model using Recurrent Neural Network (LSTM) to predict the Bitcoin prices on a particular day. Achieved a precision score of 0.67."
+        "heading": "Finance/ML",
+        "title": "Predicting Equity Index Volatility",
+        "link":"https://github.com/DN612/Predicting-Equity-Index-Volatility",
+        "text": "Performed comprehensive exploratory data analysis on potential predictors for forecasting daily realized volatility of the S&P 500 Index over different market regimes. Compared performance of linear and non-linear models with baseline GARCH model. Analysed fairness and destructive power of the model."
       },
       {
         "id": 3,
-        "heading": "Quantum Computing",
-        "title":"Monte Carlo Pricing of Financial Derivatives",
-        "link":"https://github.com/DN612/Quantum-Computaion",
-        "text": "Constructed and simulated quatum monte carlo model for option pricing using quantum algorithm and circuit."
+        "heading": "Finance/ML",
+        "title":"Forecasting Hidden Market States (IAQF)",
+        "link":"https://github.com/DN612/Forecasting-Hidden-Market-State",
+        "text": "Used three state Hidden Markov Model (HMM) to identify market regimes using Russell 3000 index returns, that can be of paramount importance for investors/traders for implementing market-timing-based strategies. Combined results of the Hidden Markov Model with the states detected by leading market indicators of market regime changes using Random Forest Classifiers."
       },
       {
         "id": 1,
         "heading": "Deep Learning",
-        "title":"Image to image translation using Generative Adversarial Networks",
+        "title":"Image to image translation using GAN",
         "link":"https://github.com/DN612/StarGAN",
-        "text":
-          "Performed detailed analysis of shortcomings in the current single domain to domain image translation models via literature review. Reproduced the results of the paper “StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation” which implements StarGAN and compared all the models to identify the superior one."
+        "text": "Performed detailed analysis of shortcomings in the current single domain to domain image translation models via literature review. Reproduced the results of the paper “StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation” which implements StarGAN and compared all the models to identify the superior one."
       }
     ]
   },
   "contact":{
     "imgSource":"/images/logo.png",
-    "text":"The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle.",
+    "text":"The only way to do extraordinary work is to be passionate about it. Keep searching till you find this passion. Don't settle for ordinary.",
     "info":[
       {
         "id":1,
@@ -138,21 +130,21 @@
     "education":[
       {
         "id":3,
-        "title":"ORIE Masters of Engineering (Financial Engineering)",
-        "heading":"Cornell University, Ithaca, New York",
+        "title":"ORIE M.Eng. Financial Engineering concentration with Financial Data Science",
+        "heading":"Cornell University, Ithaca, USA - CGPA: 3.96/4.00",
         "timeStamp":"Aug 2021 - Dec 2022",
-        "selectedCourse": "Expected coursework",
-        "text":"Stochastic Calculus, Statistics of Financial Engineering, Optimisation, Statistical Data Mining applied Time Series",
+        "selectedCourse": "Selected coursework:",
+        "text":"Derivative Securities, Investment and Portfolio Management, Statistics for Financial Engineering, Optimisation Modeling in Finance, Python for Finance, Stochastic Calculus for Financial Engineering, Monte Carlo for Financial Engineering, Statistical Data Mining, Big Messy Data, Big Data Technologies",
         "awards":""
       },
       {
         "id":1,
-        "title":"BTech in Information and Communication Technology with minor in Computational Science",
-        "heading": "Dhirubhai Ambani Institute of Information and Communication Technology",
+        "title":"B.Tech. in Information and Communication Technology with minor in Computational Science",
+        "heading": "Dhirubhai Ambani Institute of Information and Communication Technology, Gandhinagar, India - CGPA: 9.44/10.00",
         "timeStamp":"Aug 2017 - May 2020",
-        "selectedCourse": "Selected coursework",
+        "selectedCourse": "Selected coursework:",
         "text":"Computational Finance, Machine Learning, Deep learning, Calculus, Probability, Statistics and Information Theory, Group theory and Linear Algebra, Optimisation, Computational and numerical methods, High Performance Computing, Modelling and Simulation, Quantum Computing, Introductory Computational Physics, Design and Analysis of Algorithm, Principles of Economics, Technology and Economic, Organisation Behaviour",
-        "awards":"CGPA: 9.44/10 (Rank 2)"
+        "awards":""
       },
       {
         "id":2,
@@ -165,22 +157,31 @@
     ],
     "exp":[
       {
+        "id":0,
+        "title":"(Upcoming) Machine Learning Analyst",
+        "data":[
+          {
+            "id":1,
+            "timeStamp":"Jun 2022 - Aug 2022",
+            "heading":"Kemnay Advisory Services, NYC, USA",
+            "text":"Structure and process quantitative/textual data in financial domain. Train and cross validated diverse Machine Learning Classifier. Evaluate and summarize performance results of in and out sample testing."
+          }
+        ]
+      },
+      {
         "id":1,
         "title":"Product Engineer Intern",
         "data":[
           {
             "id":1,
             "timeStamp":"Feb 2021 - May 2021",
-            "heading":"Spriklr, Gurgaon, India",
+            "heading":"Sprinklr, Gurgaon, India",
             "text":"Build a docker containing deep learning model for emotion identification. Trained the model using labelled data generated using GPU via zero shot classification model pretrained over MNLI dataset. Performed testing of different sentiment predictions models based on model metadata shifted to tensorflow servable platform to compare with performance of original models."
           }
-        ],
-        "timeStamp":["Feb 2021 - May 2021"],
-        "heading":["Spriklr, Gurgaon, India"],
-        "text":["Worked on Multilingual Toxic Comment Classification. Implemented a range of approaches from baseline classifiers to sophisticated models like Cross Language Modelling RoBERTa (XLM-R) and ensemble models. Further extend the work to a fully functional Document Classifier."]
+        ]
       },
       {
-        "id":4,
+        "id":2,
         "title":"Computational Finance Intern",
         "data":[
           {
@@ -204,32 +205,17 @@
         ]
       },
       {
-        "id":2,
-        "title":"Dhirubhai Ambani Institude of Information and Communication Technology",
+        "id":4,
+        "title":"Undergraduate Researcher",
         "data":[
           {
             "id":1,
-            "timeStamp":"Aug, 2020 - Dec, 2020",
-            "heading":"Linear Algebra Teaching Assistant",
-            "text":"Conduct weekly tutorials. Assist the professor in structuring the course and evaluating student performance."
-          },
-          {
-            "id":2,
             "timeStamp":"Dec, 2019 - Dec, 2020",
-            "heading":"Undergraduate Researcher (in collaboration with Institute for Plasma Research)",
+            "heading":"Dhirubhai Ambani Institute of Information and Communication Technology (in collaboration with Institute for Plasma Research)",
             "text":"Devised a novel approach for synthetic time series data generation for tokamak plasma disruption. Built a model for identifying pre-disruptive current that acts as a precursor for predicting disruption. Presented the work at International Conference Of Plasma Sciences 2020 and published a paper \"An Application of Machine Learning for Plasma Current Quench Studies via Synthetic Data Generation\"in Fusion Engineering and Design.",
             "link": "https://www.sciencedirect.com/science/article/abs/pii/S0920379621003549?via%3Dihub"
-          },
-          {
-            "id":3,
-            "heading":"Member of Programming Club",
-            "timeStamp":"Aug, 2018 - Jun, 2020",
-            "text":"Associated with of the programming club at DA-IICT for about 2 years now. Responsibilities included conducting regular sessions for teaching new topics to students and creating/managing coding contests for entire student community."
           }
-        ],
-        "timeStamp":["Aug, 2020 - Dec, 2020", "Dec, 2019 - Dec, 2020","Aug, 2018 - Jun, 2020"],
-        "heading":["Linear Algebra Teaching Assistant","Undergraduate Researcher (in collaboration with Institute for Plasma Research)", "Member of Programming Club"],
-        "text":["Conduct weekly tutorials. Assist the professor in structuring the course and evaluating student performance.", "Devised a novel approach for synthetic time series data generation for tokamak plasma disruption. Built a model for identifying pre-disruptive current that acts as a precursor for predicting disruption. Presented the work at International Conference Of Plasma Sciences 2020.","Associated with of the programming club at DA-IICT for about 2 years. Responsibilities included conducting regular sessions for teaching new topics to students and creating/managing coding contests for entire student community."]
+        ]
       }
     ]
   },
