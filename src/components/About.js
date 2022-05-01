@@ -16,12 +16,12 @@ const About = (props) => {
           <div className="commonBorder"></div>
         </div>
         <div className="about-row">
-          <div className="col-5">
+          <div className="col-6">
             <div className="about__img">
               <img src="/images/image-profile.jpg" alt="man" />
             </div>
           </div>
-          <div className="col-3">
+          <div className="col-5">
             <div className="about__info">
               <h3>Hi there!</h3>
               <div className="about__info-p1">{aboutMe}</div>
